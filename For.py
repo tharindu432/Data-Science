@@ -24,3 +24,12 @@ for i in locations:
         continue
     else:
         print("key is not found in",i)
+
+#functions
+tom_exp=[2100,6789,9000]
+joe_exp=[5678,9321,5000]
+total_exp=0
+for item in tom_exp:
+    total_exp=total_exp+item
+print("total expenses of tom are:",total_exp)
+
